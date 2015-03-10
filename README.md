@@ -86,10 +86,12 @@ log.Fatal(http.ListenAndServe(":3000", nil))
 }
 
 ```
+
 [source](https://github.com/reactjs/react-tutorial/blob/master/server.go)
+
 And also provided was a Python equivalent
 
-```
+```PYTHON
 ...
 import json
 from flask import Flask, Response, request
